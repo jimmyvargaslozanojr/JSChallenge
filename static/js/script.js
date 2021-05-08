@@ -24,3 +24,6 @@ function catgenerate(){
     img.src = "/static/images/cat.jpg";
     div.appendChild(img);
 }
+
+
+
