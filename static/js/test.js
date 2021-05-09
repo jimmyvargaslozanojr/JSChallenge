@@ -27,7 +27,7 @@ const person = {
 person.email = 'john@gmail.com';
 // console.log(person);
 
-const todo = [
+const todos = [
     {
         id:1,
         text : 'Take out trash',
@@ -46,11 +46,52 @@ const todo = [
     
 ];
 
-// console.log(todo[1].text);
+ // console.log(todo[1].text);
 
-const todoJSON = JSON.stringify(todo);
+// const todoJSON = JSON.stringify(todo);
 // console.log(todoJSON);
 
-for(let i = 0;1 < 10;i++){
-    console.log(i);
-}
+// For loop
+// for(let i = 0;i <= 100;i++){
+//     console.log(i);
+// }
+
+//  While
+
+// let i =0;
+// while (i < 10) {
+//     console.log(`While Loop Number: ${i}`);
+//     i++;
+// }
+
+// for (let i = 0; i < todo.length; i++) {
+//     console.log(todo[i].text);
+    
+// }
+// for (let todo of todos){
+//     console.log(todo.text);
+// }
+
+// High order array
+
+//forEach
+
+// todos.forEach(function(todo){
+//     console.log(todo.text);
+// });
+
+//Map
+
+// const todoText = todos.map(function(todo){
+//     return todo.text;
+// });
+// console.log(todoText);
+
+//Filter
+
+// const todoCompleted = todos.filter(function(todo){
+//     return todo.isCompleted === true;
+// }).map(function(todo){
+//     return todo.text;
+// });
+// console.log(todoCompleted);
