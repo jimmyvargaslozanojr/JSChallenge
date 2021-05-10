@@ -46,6 +46,8 @@ const todos = [
     
 ];
 
+// todos.forEach((todo) => console.log(todo));
+
  // console.log(todo[1].text);
 
 // const todoJSON = JSON.stringify(todo);
